@@ -9,6 +9,8 @@ while True:
 
     print(info)
 
+    print('------------------------------------------')
+
     if re.search('up to date', info):
         print('No new cmd, do not need do any thing')
     else:
