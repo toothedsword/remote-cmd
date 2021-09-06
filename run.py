@@ -10,7 +10,10 @@ while True:
     print(info)
 
     if re.search('up to date', info):
-        print('Do not need update')
-        exit()
+        print('No new cmd, do not need do any thing')
+    else:
+        cmd = open('cmd', 'r').read()
+        print(cmd)
+        # os.system(cmd)
 
     time.sleep(1)
