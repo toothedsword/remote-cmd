@@ -9,7 +9,7 @@ while True:
 
     print(info)
 
-    if re.search('up-to-date', info):
+    if re.search('up to date', info):
         print('Do not need update')
         exit()
 
