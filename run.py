@@ -4,7 +4,7 @@ import time
 
 
 while True:
-    sts = os.popen('git pull origin master')
+    sts = os.popen('git pull origin master > /dev/null')
     info = sts.read()
 
     if re.search('up to date', info):
