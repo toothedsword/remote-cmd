@@ -16,5 +16,5 @@ drwxrwxr-x 3 leon leon 4.0K 9月   6 12:17  natapp-tmp
 drwxrwxr-x 2 leon leon 4.0K 9月   6 18:47  bin
 drwxrwxr-x 9 leon leon 4.0K 9月   7 15:01  src
 drwxrwxr-x 3 leon leon 4.0K 9月   9 13:27  cmd
-leon@ads:~$ cd ~/; ls -rthl
+leon@ads:~$ cd ~/; ls -rthla
 
