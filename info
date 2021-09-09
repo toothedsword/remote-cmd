@@ -1,5 +1,3 @@
--rwxr--r--   1 root root  421 5月  31 15:09 .tmux.conf.1
-drwxr-x---   2 root root  121 6月   9 10:42 .dubbo
 drwxr-xr-x   2 root root  134 8月  17 16:21 yum
 drwxr-xr-x   2 root root 4.0K 8月  17 16:40 yum1
 drwxr-xr-x. 16 root root 4.0K 8月  17 16:41 .config
@@ -17,4 +15,6 @@ drwx------   2 root root   80 8月  20 17:13 .ssh
 -rw-------   1 root root 1.8K 9月   8 17:48 .mysql_history
 dr-xr-x---. 23 root root 4.0K 9月   8 17:48 .
 -rw-------.  1 root root  16K 9月   9 13:37 .bash_history
-[root@localhost ~]#
+[root@localhost ~]# cd /mnt/; ls
+ecwind  ftp1  FY3  FY3D_conv  FY4  GEO  GRAPES3KM  Light_ADTD  lost+found  output  swapdata  tmp.tar.gz
+[root@localhost mnt]#
