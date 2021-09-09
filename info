@@ -1,20 +1,20 @@
-drwxr-xr-x   2 root root   26 8月  20 09:23 bin
--rw-r--r--   1 root root  242 8月  20 09:24 .bashrc
-drwxr--r--   3 root root  141 8月  20 16:27 .tmux
-drwx------   2 root root   80 8月  20 17:13 .ssh
--rw-r--r--   1 root root 2.1G 8月  24 13:21 cldst_gpm.tar
--rw-r--r--   1 root root 4.9G 8月  24 13:24 nmc.tar.gz
--rw-r--r--   1 root root  59M 8月  25 16:55 htht-job-producer-V0.1.war
--rw-r--r--   1 root root 1.2M 8月  25 17:42 FY3D_WINS_20210825024800_1000M_RGB_ZG.png
--rw-------   1 root root 3.1K 8月  31 13:31 .viminfo
--rw-------   1 root root 1.8K 9月   8 17:48 .mysql_history
-dr-xr-x---. 23 root root 4.0K 9月   8 17:48 .
--rw-------.  1 root root  16K 9月   9 13:37 .bash_history
-[root@localhost ~]# cd /mnt/; ls
-ecwind  ftp1  FY3  FY3D_conv  FY4  GEO  GRAPES3KM  Light_ADTD  lost+found  output  swapdata  tmp.tar.gz
 [root@localhost mnt]# cd /mnt/; ls
 ecwind  ftp1  FY3  FY3D_conv  FY4  GEO  GRAPES3KM  Light_ADTD  lost+found  output  swapdata  tmp.tar.gz
 [root@localhost mnt]# ls
 ecwind  ftp1  FY3  FY3D_conv  FY4  GEO  GRAPES3KM  Light_ADTD  lost+found  output  swapdata  tmp.tar.gz
 [root@localhost mnt]# ll -rth
+total 25G
+drwx------   2 root       root  16K 11月 20 2020 lost+found
+drwxr-xr-x  76 root       root 4.0K 6月   7 18:01 Light_ADTD
+drwxr-x---  19 root       root 4.0K 6月   8 16:30 output
+drwxrwxr-x   3 root       root 4.0K 6月  10 10:20 FY3D_conv
+drwxr-xr-x   3 root       root 4.0K 6月  11 13:38 GEO
+drwxr-xr-x 163 root       root 4.0K 6月  11 14:58 ecwind
+drwxr-xr-x   3 root       root 4.0K 8月  25 16:51 swapdata
+drwxr-xr-x   2 root       root 4.0K 8月  28 09:02 GRAPES3KM
+drwxr-xr-x   7 ftp1       ftp1 4.0K 8月  30 15:46 ftp1
+-rw-r--r--   1 root       root  25G 9月   8 13:02 tmp.tar.gz
+drwxrwxrwx   4 4294967294 bin  4.0K 9月   9 14:14 FY4
+drwxrwxrwx   5 4294967294 bin  4.0K 9月   9 14:14 FY3
+[root@localhost mnt]# cd /;ll -rth
 
