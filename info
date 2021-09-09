@@ -1,20 +1,20 @@
-[root@localhost ftp1]# df -h
-Filesystem                     Size  Used Avail Use% Mounted on
-/dev/mapper/centos-root        466G   44G  422G  10% /
-devtmpfs                        39G     0   39G   0% /dev
-tmpfs                           39G     0   39G   0% /dev/shm
-tmpfs                           39G  116M   39G   1% /run
-tmpfs                           39G     0   39G   0% /sys/fs/cgroup
-/dev/sda2                      950M  149M  802M  16% /boot
-/dev/sda1                      952M  9.8M  942M   2% /boot/efi
-/dev/sdb1                      3.6T  985G  2.5T  29% /space
-/dev/mapper/centos-data        1.4T  468G  898G  35% /data
-tmpfs                          7.8G   12K  7.8G   1% /run/user/42
-tmpfs                          7.8G     0  7.8G   0% /run/user/0
-10.24.38.43:/ARSDISK/DATA/FY3  1.5P  1.3P  165T  89% /space/FY3
-10.24.38.43:/ARSDISK/DATA/FY4  1.5P  1.3P  165T  89% /space/FY4
-overlay                        466G   44G  422G  10% /var/lib/docker/overlay2/058c7787e5b34a33e6d7f84a7a7ae7ed8fcd5ee5726d670487bdb0ee17124836/merged
-overlay                        466G   44G  422G  10% /var/lib/docker/overlay2/e5ca29bd0f3a7f6c5ca3f30d74c0107262955a37366557142bccc85a74675799/merged
-overlay                        466G   44G  422G  10% /var/lib/docker/overlay2/49645980d590e30ffb5cd98b04de4eababb1cd8308428d2aa2aae2fd8c6340ed/merged
-overlay                        466G   44G  422G  10% /var/lib/docker/overlay2/12eca63d30e1cfa27464a7ff5f408215c7e8b07c2621a3a906bdbeccacd53186/merged
+[root@localhost ftp1]# df
+Filesystem                        1K-blocks          Used    Available Use% Mounted on
+/dev/mapper/centos-root           488045740      45979056    442066684  10% /
+devtmpfs                           40809988             0     40809988   0% /dev
+tmpfs                              40827120             0     40827120   0% /dev/shm
+tmpfs                              40827120        118052     40709068   1% /run
+tmpfs                              40827120             0     40827120   0% /sys/fs/cgroup
+/dev/sda2                            972452        152200       820252  16% /boot
+/dev/sda1                            973952          9972       963980   2% /boot/efi
+/dev/sdb1                        3845018648    1032676604   2617002268  29% /space
+/dev/mapper/centos-data          1430779308     489855392    940923916  35% /data
+tmpfs                               8165424            12      8165412   1% /run/user/42
+tmpfs                               8165424             0      8165424   0% /run/user/0
+10.24.38.43:/ARSDISK/DATA/FY3 1566632524800 1389498497024 177134027776  89% /space/FY3
+10.24.38.43:/ARSDISK/DATA/FY4 1566632524800 1389498497024 177134027776  89% /space/FY4
+overlay                           488045740      45979056    442066684  10% /var/lib/docker/overlay2/058c7787e5b34a33e6d7f84a7a7ae7ed8fcd5ee5726d670487bdb0ee17124836/merged
+overlay                           488045740      45979056    442066684  10% /var/lib/docker/overlay2/e5ca29bd0f3a7f6c5ca3f30d74c0107262955a37366557142bccc85a74675799/merged
+overlay                           488045740      45979056    442066684  10% /var/lib/docker/overlay2/49645980d590e30ffb5cd98b04de4eababb1cd8308428d2aa2aae2fd8c6340ed/merged
+overlay                           488045740      45979056    442066684  10% /var/lib/docker/overlay2/12eca63d30e1cfa27464a7ff5f408215c7e8b07c2621a3a906bdbeccacd53186/merged
 [root@localhost ftp1]#
