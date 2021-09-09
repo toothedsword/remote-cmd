@@ -1,20 +1,20 @@
-Connection to 10.28.49.233 closed.
-leon@ads:~$ ssh-copy-id root@10.28.49.233
-/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/leon/.ssh/id_rsa.pub"
-/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
-/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
-root@10.28.49.233's password:
-
-Number of key(s) added: 1
-
-Now try logging into the machine, with:   "ssh 'root@10.28.49.233'"
-and check to make sure that only the key(s) you wanted were added.
-
-leon@ads:~$ ssh root@10.28.49.233
-Last login: Thu Sep  9 13:37:10 2021 from 10.28.21.129
-[root@localhost ~]# exit
-logout
-Connection to 10.28.49.233 closed.
-leon@ads:~$ ssh root@10.28.49.233
-Last login: Thu Sep  9 13:37:27 2021 from 10.28.21.129
+-rwxr--r--   1 root root  421 5月  31 15:09 .tmux.conf.1
+drwxr-x---   2 root root  121 6月   9 10:42 .dubbo
+drwxr-xr-x   2 root root  134 8月  17 16:21 yum
+drwxr-xr-x   2 root root 4.0K 8月  17 16:40 yum1
+drwxr-xr-x. 16 root root 4.0K 8月  17 16:41 .config
+-rw-------   1 root root 4.3K 8月  19 09:38 .viminfo.tmp
+dr-xr-xr-x. 20 root root 4.0K 8月  19 10:00 ..
+drwxr-xr-x   2 root root   26 8月  20 09:23 bin
+-rw-r--r--   1 root root  242 8月  20 09:24 .bashrc
+drwxr--r--   3 root root  141 8月  20 16:27 .tmux
+drwx------   2 root root   80 8月  20 17:13 .ssh
+-rw-r--r--   1 root root 2.1G 8月  24 13:21 cldst_gpm.tar
+-rw-r--r--   1 root root 4.9G 8月  24 13:24 nmc.tar.gz
+-rw-r--r--   1 root root  59M 8月  25 16:55 htht-job-producer-V0.1.war
+-rw-r--r--   1 root root 1.2M 8月  25 17:42 FY3D_WINS_20210825024800_1000M_RGB_ZG.png
+-rw-------   1 root root 3.1K 8月  31 13:31 .viminfo
+-rw-------   1 root root 1.8K 9月   8 17:48 .mysql_history
+dr-xr-x---. 23 root root 4.0K 9月   8 17:48 .
+-rw-------.  1 root root  16K 9月   9 13:37 .bash_history
 [root@localhost ~]#
