@@ -1,8 +1,3 @@
-lrwxrwxrwx  1 leon leon   30 9月   6 14:08  .tmux.conf.local.complex -> .tmux/.tmux.conf.local.complex
-lrwxrwxrwx  1 leon leon   22 9月   6 14:08  .tmux.conf.local -> .tmux/.tmux.conf.local
-lrwxrwxrwx  1 leon leon   25 9月   6 14:08  .tmux.conf.leon2-hc -> .tmux/.tmux.conf.leon2-hc
-lrwxrwxrwx  1 leon leon   24 9月   6 14:08  .tmux.conf.leon2.0 -> .tmux/.tmux.conf.leon2.0*
-lrwxrwxrwx  1 leon leon   22 9月   6 14:08  .tmux.conf.leon2 -> .tmux/.tmux.conf.leon2
 lrwxrwxrwx  1 leon leon   25 9月   6 14:08  .tmux.conf.leon1-hc -> .tmux/.tmux.conf.leon1-hc
 lrwxrwxrwx  1 leon leon   24 9月   6 14:08  .tmux.conf.leon1.0 -> .tmux/.tmux.conf.leon1.0*
 lrwxrwxrwx  1 leon leon   22 9月   6 14:08  .tmux.conf.leon1 -> .tmux/.tmux.conf.leon1
@@ -17,4 +12,9 @@ drwxrwxr-x  9 leon leon 4.0K 9月   7 15:01  src/
 drwxr-xr-x 39 leon leon 4.0K 9月   8 15:59  ./
 -rw-------  1 leon leon 6.3K 9月   9 09:28  .bash_history
 drwxrwxr-x  3 leon leon 4.0K 9月   9 13:24  cmd/
-
+leon@ads:~$ cd ~/cmd; ls -rthl
+total 8.0K
+-rw-rw-r-- 1 leon leon 410 9月   7 15:27 run.py
+-rw-rw-r-- 1 leon leon 216 9月   9 13:25 cmd
+-rw-rw-r-- 1 leon leon   0 9月   9 13:25 info
+leon@ads:~/cmd$
