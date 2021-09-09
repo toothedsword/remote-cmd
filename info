@@ -1,10 +1,4 @@
 -rw-rw-r-- 1 leon leon 410 9月   7 15:27 run.py
--rw-rw-r-- 1 leon leon 216 9月   9 13:25 cmd
--rw-rw-r-- 1 leon leon   0 9月   9 13:25 info
-leon@ads:~/cmd$ echo ooooooooooooo cd ~/cmd; ls -rthl
-ooooooooooooo cd /home/leon/cmd
-total 8.0K
--rw-rw-r-- 1 leon leon 410 9月   7 15:27 run.py
 -rw-rw-r-- 1 leon leon 235 9月   9 13:26 cmd
 -rw-rw-r-- 1 leon leon   0 9月   9 13:26 info
 leon@ads:~/cmd$ echo ooooooooooooo;cd ~/cmd; ls -rthl
@@ -18,3 +12,9 @@ total 8.0K
 -rw-rw-r-- 1 leon leon 410 9月   7 15:27 run.py
 -rw-rw-r-- 1 leon leon 216 9月   9 13:27 cmd
 -rw-rw-r-- 1 leon leon   0 9月   9 13:27 info
+leon@ads:~/cmd$ cd ~/cmd; ls -rthl
+total 8.0K
+-rw-rw-r-- 1 leon leon 410 9月   7 15:27 run.py
+-rw-rw-r-- 1 leon leon 216 9月   9 13:27 cmd
+-rw-rw-r-- 1 leon leon   0 9月   9 13:27 info
+leon@ads:~/cmd$
