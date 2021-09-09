@@ -1,20 +1,20 @@
-total 20K
--rw-rw-r--  1 leon leon    0 9月   9 13:21 info
--rw-rw-r--  1 leon leon  205 9月   9 13:21 cmd
--rw-rw-r--  1 leon leon  410 9月   7 15:27 run.py
-drwxrwxr-x  8 leon leon 4.0K 9月   9 13:21 .git/
-drwxr-xr-x 39 leon leon 4.0K 9月   8 15:59 ../
-drwxrwxr-x  3 leon leon 4.0K 9月   9 13:21 ./
-leon@ads:~/cmd$ ll -rSh
-total 20K
--rw-rw-r--  1 leon leon    0 9月   9 13:22 info
--rw-rw-r--  1 leon leon  205 9月   9 13:22 cmd
--rw-rw-r--  1 leon leon  410 9月   7 15:27 run.py
-drwxrwxr-x  8 leon leon 4.0K 9月   9 13:22 .git/
-drwxr-xr-x 39 leon leon 4.0K 9月   8 15:59 ../
-drwxrwxr-x  3 leon leon 4.0K 9月   9 13:22 ./
-leon@ads:~/cmd$ ssh root@10.28.49.233
-root@10.28.49.233's password:
-
-leon@ads:~/cmd$ cd;ll -rth
+lrwxrwxrwx  1 leon leon   30 9月   6 14:08  .tmux.conf.local.complex -> .tmux/.tmux.conf.local.complex
+lrwxrwxrwx  1 leon leon   22 9月   6 14:08  .tmux.conf.local -> .tmux/.tmux.conf.local
+lrwxrwxrwx  1 leon leon   25 9月   6 14:08  .tmux.conf.leon2-hc -> .tmux/.tmux.conf.leon2-hc
+lrwxrwxrwx  1 leon leon   24 9月   6 14:08  .tmux.conf.leon2.0 -> .tmux/.tmux.conf.leon2.0*
+lrwxrwxrwx  1 leon leon   22 9月   6 14:08  .tmux.conf.leon2 -> .tmux/.tmux.conf.leon2
+lrwxrwxrwx  1 leon leon   25 9月   6 14:08  .tmux.conf.leon1-hc -> .tmux/.tmux.conf.leon1-hc
+lrwxrwxrwx  1 leon leon   24 9月   6 14:08  .tmux.conf.leon1.0 -> .tmux/.tmux.conf.leon1.0*
+lrwxrwxrwx  1 leon leon   22 9月   6 14:08  .tmux.conf.leon1 -> .tmux/.tmux.conf.leon1
+lrwxrwxrwx  1 leon leon   24 9月   6 14:08  .tmux.conf.leon0.0 -> .tmux/.tmux.conf.leon0.0*
+lrwxrwxrwx  1 leon leon   19 9月   6 14:08  .tmux.conf-bk -> .tmux/.tmux.conf-bk
+lrwxrwxrwx  1 leon leon   18 9月   6 14:08  .tmux.conf.2 -> .tmux/.tmux.conf.2*
+lrwxrwxrwx  1 leon leon   18 9月   6 14:08  .tmux.conf.1 -> .tmux/.tmux.conf.1*
+lrwxrwxrwx  1 leon leon   18 9月   6 14:08  .tmux.conf.0 -> .tmux/.tmux.conf.0*
+drwxrwxr-x  2 leon leon 4.0K 9月   6 18:47  bin/
+drwxrwxr-x  9 leon leon 4.0K 9月   7 15:01  src/
+-rw-------  1 leon leon  16K 9月   7 15:27  .viminfo
+drwxr-xr-x 39 leon leon 4.0K 9月   8 15:59  ./
+-rw-------  1 leon leon 6.3K 9月   9 09:28  .bash_history
+drwxrwxr-x  3 leon leon 4.0K 9月   9 13:24  cmd/
 
