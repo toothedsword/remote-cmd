@@ -1,12 +1,3 @@
-drwxr-xr-x   2 root   root     49 5月  31 15:17 docker_images
-drwx------   3 ftp3   ftp3     78 8月  17 16:57 ftp3
-drwx------   6 ftp2   ftp2    142 8月  17 16:59 ftp2
-lrwxrwxrwx   1 root   root     11 8月  17 17:26 ftp1-data -> /data/ftp1/
-lrwxrwxrwx   1 root   root     12 8月  30 15:45 ftp1-space -> /space/ftp1/
-lrwxrwxrwx   1 root   root     11 9月   2 09:54 ftp1 -> /data/ftp1/
-[root@localhost home]# cd /home/;ll -rth
-total 217M
-drwx------.  7 LYJ    LYJ     217 11月 13 2020 LYJ
 drwx------   9 yangxl yangxl  285 2月   1 2021 yangxl
 drwx------. 15 swpc   swpc   4.0K 5月  28 09:09 swpc
 -rw-r--r--   1 root   root   217M 5月  31 14:23 docker_7.5.tar.gz
@@ -17,4 +8,13 @@ drwx------   6 ftp2   ftp2    142 8月  17 16:59 ftp2
 lrwxrwxrwx   1 root   root     11 8月  17 17:26 ftp1-data -> /data/ftp1/
 lrwxrwxrwx   1 root   root     12 8月  30 15:45 ftp1-space -> /space/ftp1/
 lrwxrwxrwx   1 root   root     11 9月   2 09:54 ftp1 -> /data/ftp1/
-[root@localhost home]#
+[root@localhost home]# cd /home/ftp1/;ll -rth
+total 11M
+drwxrwxr-x 2 ftp1 ftp1    6 8月  17 17:02 test
+-rw-r--r-- 1 ftp1 ftp1    5 8月  19 16:35 t1
+-rw-r--r-- 1 ftp1 ftp1    5 8月  19 16:52 t2
+-rw-r--r-- 1 ftp1 ftp1 5.5M 8月  19 17:02 GDAS_NMIC_RFFC_FRT_ER1_ACHN_LNO_G005_20210819130000000.GRB2
+-rw-r--r-- 1 ftp1 ftp1 5.5M 8月  19 17:26 GDAS_NMIC_RFFC_FRT_ER1_ACHN_LNO_G005_20210819170000000.GRB2
+lrwxrwxrwx 1 root root    6 8月  30 15:40 space -> /space
+drwxrwxr-x 4 ftp1 ftp1   75 9月   2 11:19 data
+[root@localhost ftp1]#
