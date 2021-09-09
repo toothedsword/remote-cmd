@@ -1,20 +1,20 @@
-drwxrwxr-x 3 leon leon 4.0K 5月   8 09:29  natapp-tmp-x201
-drwxrwxr-x 3 leon leon 4.0K 5月   8 09:32  natapp-tmp-test
--rw-r--r-- 1 root root 1.1K 5月  26 19:19  proxy.error.log
--rw-r--r-- 1 root root  976 5月  26 19:19  proxy.access.log
--rwxrwx--- 1 leon leon 5.1K 5月  27 09:57  nginx.conf
-drwxr-xr-x 9 leon leon 4.0K 5月  28 19:10  static
-drwxr-xr-x 2 root root 4.0K 8月  17 16:34  yum
-drwxr-xr-x 2 root root 4.0K 8月  17 16:53  yum1
-drwxr-xr-x 2 leon leon 4.0K 8月  19 16:31  Documents
--rw-rw-r-- 1 leon leon  11K 8月  19 17:13  ftp.md
-drwxrwxr-x 4 leon leon 4.0K 8月  20 18:14  rmf
-drwxrwxr-x 3 leon leon 4.0K 8月  20 18:14  rmf.grb
-drwxrwxr-x 2 leon leon 4.0K 8月  25 16:53  pygrib
-drwxrwxr-x 2 leon leon 4.0K 8月  25 17:23  jq
-drwxrwxr-x 3 leon leon 4.0K 9月   6 12:17  natapp-tmp
-drwxrwxr-x 2 leon leon 4.0K 9月   6 18:47  bin
-drwxrwxr-x 9 leon leon 4.0K 9月   7 15:01  src
-drwxrwxr-x 3 leon leon 4.0K 9月   9 13:27  cmd
-leon@ads:~$ cd ~/; ls -rthla
+lrwxrwxrwx  1 leon leon   22 9月   6 14:08  .tmux.conf.local -> .tmux/.tmux.conf.local
+lrwxrwxrwx  1 leon leon   25 9月   6 14:08  .tmux.conf.leon2-hc -> .tmux/.tmux.conf.leon2-hc
+lrwxrwxrwx  1 leon leon   24 9月   6 14:08  .tmux.conf.leon2.0 -> .tmux/.tmux.conf.leon2.0
+lrwxrwxrwx  1 leon leon   22 9月   6 14:08  .tmux.conf.leon2 -> .tmux/.tmux.conf.leon2
+lrwxrwxrwx  1 leon leon   25 9月   6 14:08  .tmux.conf.leon1-hc -> .tmux/.tmux.conf.leon1-hc
+lrwxrwxrwx  1 leon leon   24 9月   6 14:08  .tmux.conf.leon1.0 -> .tmux/.tmux.conf.leon1.0
+lrwxrwxrwx  1 leon leon   22 9月   6 14:08  .tmux.conf.leon1 -> .tmux/.tmux.conf.leon1
+lrwxrwxrwx  1 leon leon   24 9月   6 14:08  .tmux.conf.leon0.0 -> .tmux/.tmux.conf.leon0.0
+lrwxrwxrwx  1 leon leon   19 9月   6 14:08  .tmux.conf-bk -> .tmux/.tmux.conf-bk
+lrwxrwxrwx  1 leon leon   18 9月   6 14:08  .tmux.conf.2 -> .tmux/.tmux.conf.2
+lrwxrwxrwx  1 leon leon   18 9月   6 14:08  .tmux.conf.1 -> .tmux/.tmux.conf.1
+lrwxrwxrwx  1 leon leon   18 9月   6 14:08  .tmux.conf.0 -> .tmux/.tmux.conf.0
+drwxrwxr-x  2 leon leon 4.0K 9月   6 18:47  bin
+drwxrwxr-x  9 leon leon 4.0K 9月   7 15:01  src
+-rw-------  1 leon leon  16K 9月   7 15:27  .viminfo
+drwxr-xr-x 39 leon leon 4.0K 9月   8 15:59  .
+-rw-------  1 leon leon 6.3K 9月   9 09:28  .bash_history
+drwxrwxr-x  3 leon leon 4.0K 9月   9 13:28  cmd
+leon@ads:~$ cd ~/; ls -rthla; sleep 1
 
