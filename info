@@ -1,34 +1,14 @@
-total 20K
--rw-rw-r--  1 leon leon  410 9月   7 15:27 run.py
-drwxr-xr-x 39 leon leon 4.0K 9月   8 15:59 ../
--rw-rw-r--  1 leon leon   45 9月   9 13:15 cmd
-drwxrwxr-x  3 leon leon 4.0K 9月   9 13:15 ./
-drwxrwxr-x  8 leon leon 4.0K 9月   9 13:16 .git/
--rw-rw-r--  1 leon leon    0 9月   9 13:16 info
-leon@ads:~/cmd$ ll -rth
-total 20K
--rw-rw-r--  1 leon leon  410 9月   7 15:27 run.py
-drwxr-xr-x 39 leon leon 4.0K 9月   8 15:59 ../
-drwxrwxr-x  8 leon leon 4.0K 9月   9 13:19 .git/
--rw-rw-r--  1 leon leon  205 9月   9 13:19 cmd
-drwxrwxr-x  3 leon leon 4.0K 9月   9 13:19 ./
--rw-rw-r--  1 leon leon    0 9月   9 13:19 info
-leon@ads:~/cmd$ ll -rSh
-total 20K
--rw-rw-r--  1 leon leon    0 9月   9 13:20 info
--rw-rw-r--  1 leon leon  205 9月   9 13:20 cmd
--rw-rw-r--  1 leon leon  410 9月   7 15:27 run.py
 drwxrwxr-x  8 leon leon 4.0K 9月   9 13:20 .git/
 drwxr-xr-x 39 leon leon 4.0K 9月   8 15:59 ../
 drwxrwxr-x  3 leon leon 4.0K 9月   9 13:20 ./
 leon@ads:~/cmd$ ll -rSh
 total 20K
--rw-rw-r--  1 leon leon    0 9月   9 13:20 info
--rw-rw-r--  1 leon leon  205 9月   9 13:20 cmd
+-rw-rw-r--  1 leon leon    0 9月   9 13:21 info
+-rw-rw-r--  1 leon leon  205 9月   9 13:21 cmd
 -rw-rw-r--  1 leon leon  410 9月   7 15:27 run.py
-drwxrwxr-x  8 leon leon 4.0K 9月   9 13:20 .git/
+drwxrwxr-x  8 leon leon 4.0K 9月   9 13:21 .git/
 drwxr-xr-x 39 leon leon 4.0K 9月   8 15:59 ../
-drwxrwxr-x  3 leon leon 4.0K 9月   9 13:20 ./
+drwxrwxr-x  3 leon leon 4.0K 9月   9 13:21 ./
 leon@ads:~/cmd$ ll -rSh
 total 20K
 -rw-rw-r--  1 leon leon    0 9月   9 13:21 info
