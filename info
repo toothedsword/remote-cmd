@@ -6,7 +6,7 @@ drwxr-xr-x    2 root root    6 6月   7 15:31 FY3
 drwxr-xr-x    2 root root    6 6月   7 15:31 FY4
 lrwxrwxrwx    1 root root    6 6月   7 17:02 mnt -> space/
 drwxr-xr-x.  22 root root 4.0K 8月  17 16:22 var
-dr-xr-xr-x  584 root root    0 8月  19 09:59 proc
+dr-xr-xr-x  585 root root    0 8月  19 09:59 proc
 drwxr-xr-x   20 root root 3.4K 8月  19 09:59 dev
 drwxr-xr-x. 142 root root 8.0K 8月  19 17:43 etc
 dr-xr-xr-x   13 root root    0 8月  19 18:25 sys
@@ -16,5 +16,5 @@ drwxr-xr-x.   9 root root  178 9月   2 09:54 home
 drwxr-xr-x   13 root root 4.0K 9月   8 12:39 space
 dr-xr-x---.  23 root root 4.0K 9月   8 17:48 root
 drwxrwxrwt.  13 root root 4.0K 9月   9 03:44 tmp
-[root@localhost /]# cd /;ll -rth
+[root@localhost /]# cd /home/;ll -rth
 
