@@ -1,20 +1,20 @@
-[root@localhost mnt]# cd /mnt/; ls
-ecwind  ftp1  FY3  FY3D_conv  FY4  GEO  GRAPES3KM  Light_ADTD  lost+found  output  swapdata  tmp.tar.gz
-[root@localhost mnt]# ls
-ecwind  ftp1  FY3  FY3D_conv  FY4  GEO  GRAPES3KM  Light_ADTD  lost+found  output  swapdata  tmp.tar.gz
-[root@localhost mnt]# ll -rth
-total 25G
-drwx------   2 root       root  16K 11月 20 2020 lost+found
-drwxr-xr-x  76 root       root 4.0K 6月   7 18:01 Light_ADTD
-drwxr-x---  19 root       root 4.0K 6月   8 16:30 output
-drwxrwxr-x   3 root       root 4.0K 6月  10 10:20 FY3D_conv
-drwxr-xr-x   3 root       root 4.0K 6月  11 13:38 GEO
-drwxr-xr-x 163 root       root 4.0K 6月  11 14:58 ecwind
-drwxr-xr-x   3 root       root 4.0K 8月  25 16:51 swapdata
-drwxr-xr-x   2 root       root 4.0K 8月  28 09:02 GRAPES3KM
-drwxr-xr-x   7 ftp1       ftp1 4.0K 8月  30 15:46 ftp1
--rw-r--r--   1 root       root  25G 9月   8 13:02 tmp.tar.gz
-drwxrwxrwx   4 4294967294 bin  4.0K 9月   9 14:14 FY4
-drwxrwxrwx   5 4294967294 bin  4.0K 9月   9 14:14 FY3
-[root@localhost mnt]# cd /;ll -rth
+lrwxrwxrwx.   1 root root    7 9月  30 2020 lib -> usr/lib
+dr-xr-xr-x.   5 root root 4.0K 9月  30 2020 boot
+drwxr-xr-x.  14 root root  167 11月 13 2020 usr
+drwxr-xr-x.   4 root root   34 5月  31 14:32 opt
+drwxr-xr-x    2 root root    6 6月   7 15:31 FY3
+drwxr-xr-x    2 root root    6 6月   7 15:31 FY4
+lrwxrwxrwx    1 root root    6 6月   7 17:02 mnt -> space/
+drwxr-xr-x.  22 root root 4.0K 8月  17 16:22 var
+dr-xr-xr-x  584 root root    0 8月  19 09:59 proc
+drwxr-xr-x   20 root root 3.4K 8月  19 09:59 dev
+drwxr-xr-x. 142 root root 8.0K 8月  19 17:43 etc
+dr-xr-xr-x   13 root root    0 8月  19 18:25 sys
+drwxr-xr-x   40 root root 1.3K 8月  24 14:26 run
+drwxr-xr-x.  13 LYJ  LYJ  4.0K 8月  25 17:28 data
+drwxr-xr-x.   9 root root  178 9月   2 09:54 home
+drwxr-xr-x   13 root root 4.0K 9月   8 12:39 space
+dr-xr-x---.  23 root root 4.0K 9月   8 17:48 root
+drwxrwxrwt.  13 root root 4.0K 9月   9 03:44 tmp
+[root@localhost /]# cd /;ll -rth
 
