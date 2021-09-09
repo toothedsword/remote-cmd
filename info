@@ -1,20 +1,20 @@
-drwxrwxr-x 4 ftp1 ftp1   75 9月   2 11:19 data
-[root@localhost ftp1]# cd /home/ftp1/test/;ll -rth
-total 0
-[root@localhost test]# cd /home/ftp1/test/;pwd;ll -rth
-/home/ftp1/test
-total 0
-[root@localhost test]# cd /home/ftp1/test/;pwd;ll -rth
-/home/ftp1/test
-total 0
-[root@localhost test]# cd /home/ftp1/;pwd;ll -rth
-/home/ftp1
-total 11M
-drwxrwxr-x 2 ftp1 ftp1    6 8月  17 17:02 test
--rw-r--r-- 1 ftp1 ftp1    5 8月  19 16:35 t1
--rw-r--r-- 1 ftp1 ftp1    5 8月  19 16:52 t2
--rw-r--r-- 1 ftp1 ftp1 5.5M 8月  19 17:02 GDAS_NMIC_RFFC_FRT_ER1_ACHN_LNO_G005_20210819130000000.GRB2
--rw-r--r-- 1 ftp1 ftp1 5.5M 8月  19 17:26 GDAS_NMIC_RFFC_FRT_ER1_ACHN_LNO_G005_20210819170000000.GRB2
-lrwxrwxrwx 1 root root    6 8月  30 15:40 space -> /space
-drwxrwxr-x 4 ftp1 ftp1   75 9月   2 11:19 data
+[root@localhost ftp1]# df -h
+Filesystem                     Size  Used Avail Use% Mounted on
+/dev/mapper/centos-root        466G   44G  422G  10% /
+devtmpfs                        39G     0   39G   0% /dev
+tmpfs                           39G     0   39G   0% /dev/shm
+tmpfs                           39G  116M   39G   1% /run
+tmpfs                           39G     0   39G   0% /sys/fs/cgroup
+/dev/sda2                      950M  149M  802M  16% /boot
+/dev/sda1                      952M  9.8M  942M   2% /boot/efi
+/dev/sdb1                      3.6T  985G  2.5T  29% /space
+/dev/mapper/centos-data        1.4T  468G  898G  35% /data
+tmpfs                          7.8G   12K  7.8G   1% /run/user/42
+tmpfs                          7.8G     0  7.8G   0% /run/user/0
+10.24.38.43:/ARSDISK/DATA/FY3  1.5P  1.3P  165T  89% /space/FY3
+10.24.38.43:/ARSDISK/DATA/FY4  1.5P  1.3P  165T  89% /space/FY4
+overlay                        466G   44G  422G  10% /var/lib/docker/overlay2/058c7787e5b34a33e6d7f84a7a7ae7ed8fcd5ee5726d670487bdb0ee17124836/merged
+overlay                        466G   44G  422G  10% /var/lib/docker/overlay2/e5ca29bd0f3a7f6c5ca3f30d74c0107262955a37366557142bccc85a74675799/merged
+overlay                        466G   44G  422G  10% /var/lib/docker/overlay2/49645980d590e30ffb5cd98b04de4eababb1cd8308428d2aa2aae2fd8c6340ed/merged
+overlay                        466G   44G  422G  10% /var/lib/docker/overlay2/12eca63d30e1cfa27464a7ff5f408215c7e8b07c2621a3a906bdbeccacd53186/merged
 [root@localhost ftp1]#
