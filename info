@@ -1,4 +1,3 @@
-drwxrwxr-x  8 leon leon 4.0K 9月   9 13:21 .git/
 drwxr-xr-x 39 leon leon 4.0K 9月   8 15:59 ../
 drwxrwxr-x  3 leon leon 4.0K 9月   9 13:21 ./
 leon@ads:~/cmd$ ll -rSh
@@ -17,4 +16,5 @@ total 20K
 drwxrwxr-x  8 leon leon 4.0K 9月   9 13:22 .git/
 drwxr-xr-x 39 leon leon 4.0K 9月   8 15:59 ../
 drwxrwxr-x  3 leon leon 4.0K 9月   9 13:22 ./
-leon@ads:~/cmd$
+leon@ads:~/cmd$ ssh root@10.28.49.233
+
