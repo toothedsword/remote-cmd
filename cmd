@@ -1,1 +1,1 @@
-tmux send-keys -t 0:12.1 'ssh root@10.28.49.233' Enter && tmux capture-pane -t 0:12.1 -pS -32768 | tail -n 20 > info; git add info; git commit -am test; git push origin master # 2021年 09月 09日 星期四 13:33:16 CST
+tmux send-keys -t 0:12.1 'ssh root@10.28.49.233' Enter && tmux capture-pane -t 0:12.1 -pS -32768 | tail -n 20 > info; git add info; git commit -am test; git push origin master # 2021年 09月 09日 星期四 13:34:52 CST
