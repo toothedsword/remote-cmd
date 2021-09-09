@@ -1,20 +1,20 @@
-lrwxrwxrwx.   1 root root    7 9月  30 2020 lib -> usr/lib
-dr-xr-xr-x.   5 root root 4.0K 9月  30 2020 boot
-drwxr-xr-x.  14 root root  167 11月 13 2020 usr
-drwxr-xr-x.   4 root root   34 5月  31 14:32 opt
-drwxr-xr-x    2 root root    6 6月   7 15:31 FY3
-drwxr-xr-x    2 root root    6 6月   7 15:31 FY4
-lrwxrwxrwx    1 root root    6 6月   7 17:02 mnt -> space/
-drwxr-xr-x.  22 root root 4.0K 8月  17 16:22 var
-dr-xr-xr-x  585 root root    0 8月  19 09:59 proc
-drwxr-xr-x   20 root root 3.4K 8月  19 09:59 dev
-drwxr-xr-x. 142 root root 8.0K 8月  19 17:43 etc
-dr-xr-xr-x   13 root root    0 8月  19 18:25 sys
-drwxr-xr-x   40 root root 1.3K 8月  24 14:26 run
-drwxr-xr-x.  13 LYJ  LYJ  4.0K 8月  25 17:28 data
-drwxr-xr-x.   9 root root  178 9月   2 09:54 home
-drwxr-xr-x   13 root root 4.0K 9月   8 12:39 space
-dr-xr-x---.  23 root root 4.0K 9月   8 17:48 root
-drwxrwxrwt.  13 root root 4.0K 9月   9 03:44 tmp
-[root@localhost /]# cd /home/;ll -rth
-
+drwxr-xr-x   2 root   root     49 5月  31 15:17 docker_images
+drwx------   3 ftp3   ftp3     78 8月  17 16:57 ftp3
+drwx------   6 ftp2   ftp2    142 8月  17 16:59 ftp2
+lrwxrwxrwx   1 root   root     11 8月  17 17:26 ftp1-data -> /data/ftp1/
+lrwxrwxrwx   1 root   root     12 8月  30 15:45 ftp1-space -> /space/ftp1/
+lrwxrwxrwx   1 root   root     11 9月   2 09:54 ftp1 -> /data/ftp1/
+[root@localhost home]# cd /home/;ll -rth
+total 217M
+drwx------.  7 LYJ    LYJ     217 11月 13 2020 LYJ
+drwx------   9 yangxl yangxl  285 2月   1 2021 yangxl
+drwx------. 15 swpc   swpc   4.0K 5月  28 09:09 swpc
+-rw-r--r--   1 root   root   217M 5月  31 14:23 docker_7.5.tar.gz
+drwxrwxrwx   3 root   root   4.0K 5月  31 14:27 docker_7.5
+drwxr-xr-x   2 root   root     49 5月  31 15:17 docker_images
+drwx------   3 ftp3   ftp3     78 8月  17 16:57 ftp3
+drwx------   6 ftp2   ftp2    142 8月  17 16:59 ftp2
+lrwxrwxrwx   1 root   root     11 8月  17 17:26 ftp1-data -> /data/ftp1/
+lrwxrwxrwx   1 root   root     12 8月  30 15:45 ftp1-space -> /space/ftp1/
+lrwxrwxrwx   1 root   root     11 9月   2 09:54 ftp1 -> /data/ftp1/
+[root@localhost home]#
