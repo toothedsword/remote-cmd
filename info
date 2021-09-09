@@ -1,4 +1,3 @@
-logout
 Connection to 10.28.49.233 closed.
 leon@ads:~$ ssh-copy-id root@10.28.49.233
 /usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/leon/.ssh/id_rsa.pub"
@@ -17,4 +16,5 @@ Last login: Thu Sep  9 13:37:10 2021 from 10.28.21.129
 logout
 Connection to 10.28.49.233 closed.
 leon@ads:~$ ssh root@10.28.49.233
-
+Last login: Thu Sep  9 13:37:27 2021 from 10.28.21.129
+[root@localhost ~]#
