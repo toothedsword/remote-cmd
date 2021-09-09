@@ -1,20 +1,20 @@
-lrwxrwxrwx  1 leon leon   22 9月   6 14:08  .tmux.conf.local -> .tmux/.tmux.conf.local
-lrwxrwxrwx  1 leon leon   25 9月   6 14:08  .tmux.conf.leon2-hc -> .tmux/.tmux.conf.leon2-hc
-lrwxrwxrwx  1 leon leon   24 9月   6 14:08  .tmux.conf.leon2.0 -> .tmux/.tmux.conf.leon2.0
-lrwxrwxrwx  1 leon leon   22 9月   6 14:08  .tmux.conf.leon2 -> .tmux/.tmux.conf.leon2
-lrwxrwxrwx  1 leon leon   25 9月   6 14:08  .tmux.conf.leon1-hc -> .tmux/.tmux.conf.leon1-hc
-lrwxrwxrwx  1 leon leon   24 9月   6 14:08  .tmux.conf.leon1.0 -> .tmux/.tmux.conf.leon1.0
-lrwxrwxrwx  1 leon leon   22 9月   6 14:08  .tmux.conf.leon1 -> .tmux/.tmux.conf.leon1
-lrwxrwxrwx  1 leon leon   24 9月   6 14:08  .tmux.conf.leon0.0 -> .tmux/.tmux.conf.leon0.0
-lrwxrwxrwx  1 leon leon   19 9月   6 14:08  .tmux.conf-bk -> .tmux/.tmux.conf-bk
-lrwxrwxrwx  1 leon leon   18 9月   6 14:08  .tmux.conf.2 -> .tmux/.tmux.conf.2
-lrwxrwxrwx  1 leon leon   18 9月   6 14:08  .tmux.conf.1 -> .tmux/.tmux.conf.1
-lrwxrwxrwx  1 leon leon   18 9月   6 14:08  .tmux.conf.0 -> .tmux/.tmux.conf.0
-drwxrwxr-x  2 leon leon 4.0K 9月   6 18:47  bin
-drwxrwxr-x  9 leon leon 4.0K 9月   7 15:01  src
--rw-------  1 leon leon  16K 9月   7 15:27  .viminfo
-drwxr-xr-x 39 leon leon 4.0K 9月   8 15:59  .
--rw-------  1 leon leon 6.3K 9月   9 09:28  .bash_history
-drwxrwxr-x  3 leon leon 4.0K 9月   9 13:32  cmd
+logout
+Connection to 10.28.49.233 closed.
+leon@ads:~$ ssh-copy-id root@10.28.49.233
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/leon/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+root@10.28.49.233's password:
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'root@10.28.49.233'"
+and check to make sure that only the key(s) you wanted were added.
+
+leon@ads:~$ ssh root@10.28.49.233
+Last login: Thu Sep  9 13:37:10 2021 from 10.28.21.129
+[root@localhost ~]# exit
+logout
+Connection to 10.28.49.233 closed.
 leon@ads:~$ ssh root@10.28.49.233
 
