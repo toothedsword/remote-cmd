@@ -1,13 +1,3 @@
-lrwxrwxrwx   1 root   root     12 8月  30 15:45 ftp1-space -> /space/ftp1/
-lrwxrwxrwx   1 root   root     11 9月   2 09:54 ftp1 -> /data/ftp1/
-[root@localhost home]# cd /home/ftp1/;ll -rth
-total 11M
-drwxrwxr-x 2 ftp1 ftp1    6 8月  17 17:02 test
--rw-r--r-- 1 ftp1 ftp1    5 8月  19 16:35 t1
--rw-r--r-- 1 ftp1 ftp1    5 8月  19 16:52 t2
--rw-r--r-- 1 ftp1 ftp1 5.5M 8月  19 17:02 GDAS_NMIC_RFFC_FRT_ER1_ACHN_LNO_G005_20210819130000000.GRB2
--rw-r--r-- 1 ftp1 ftp1 5.5M 8月  19 17:26 GDAS_NMIC_RFFC_FRT_ER1_ACHN_LNO_G005_20210819170000000.GRB2
-lrwxrwxrwx 1 root root    6 8月  30 15:40 space -> /space
 drwxrwxr-x 4 ftp1 ftp1   75 9月   2 11:19 data
 [root@localhost ftp1]# cd /home/ftp1/test/;ll -rth
 total 0
@@ -17,4 +7,14 @@ total 0
 [root@localhost test]# cd /home/ftp1/test/;pwd;ll -rth
 /home/ftp1/test
 total 0
-[root@localhost test]#
+[root@localhost test]# cd /home/ftp1/;pwd;ll -rth
+/home/ftp1
+total 11M
+drwxrwxr-x 2 ftp1 ftp1    6 8月  17 17:02 test
+-rw-r--r-- 1 ftp1 ftp1    5 8月  19 16:35 t1
+-rw-r--r-- 1 ftp1 ftp1    5 8月  19 16:52 t2
+-rw-r--r-- 1 ftp1 ftp1 5.5M 8月  19 17:02 GDAS_NMIC_RFFC_FRT_ER1_ACHN_LNO_G005_20210819130000000.GRB2
+-rw-r--r-- 1 ftp1 ftp1 5.5M 8月  19 17:26 GDAS_NMIC_RFFC_FRT_ER1_ACHN_LNO_G005_20210819170000000.GRB2
+lrwxrwxrwx 1 root root    6 8月  30 15:40 space -> /space
+drwxrwxr-x 4 ftp1 ftp1   75 9月   2 11:19 data
+[root@localhost ftp1]#
