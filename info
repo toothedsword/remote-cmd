@@ -1,20 +1,20 @@
--rw-rw-r-- 1 leon leon 410 9月   7 15:27 run.py
--rw-rw-r-- 1 leon leon 235 9月   9 13:26 cmd
--rw-rw-r-- 1 leon leon   0 9月   9 13:26 info
-leon@ads:~/cmd$ echo ooooooooooooo;cd ~/cmd; ls -rthl
-ooooooooooooo
-total 8.0K
--rw-rw-r-- 1 leon leon 410 9月   7 15:27 run.py
--rw-rw-r-- 1 leon leon 235 9月   9 13:26 cmd
--rw-rw-r-- 1 leon leon   0 9月   9 13:26 info
-leon@ads:~/cmd$ cd ~/cmd; ls -rthl
-total 8.0K
--rw-rw-r-- 1 leon leon 410 9月   7 15:27 run.py
--rw-rw-r-- 1 leon leon 216 9月   9 13:27 cmd
--rw-rw-r-- 1 leon leon   0 9月   9 13:27 info
-leon@ads:~/cmd$ cd ~/cmd; ls -rthl
-total 8.0K
--rw-rw-r-- 1 leon leon 410 9月   7 15:27 run.py
--rw-rw-r-- 1 leon leon 216 9月   9 13:27 cmd
--rw-rw-r-- 1 leon leon   0 9月   9 13:27 info
-leon@ads:~/cmd$
+drwxrwxr-x 3 leon leon 4.0K 4月  18 20:48  natapp-tmp-c8
+drwxrwxr-x 3 leon leon 4.0K 5月   8 09:29  natapp-tmp-x201
+drwxrwxr-x 3 leon leon 4.0K 5月   8 09:32  natapp-tmp-test
+-rw-r--r-- 1 root root 1.1K 5月  26 19:19  proxy.error.log
+-rw-r--r-- 1 root root  976 5月  26 19:19  proxy.access.log
+-rwxrwx--- 1 leon leon 5.1K 5月  27 09:57  nginx.conf
+drwxr-xr-x 9 leon leon 4.0K 5月  28 19:10  static
+drwxr-xr-x 2 root root 4.0K 8月  17 16:34  yum
+drwxr-xr-x 2 root root 4.0K 8月  17 16:53  yum1
+drwxr-xr-x 2 leon leon 4.0K 8月  19 16:31  Documents
+-rw-rw-r-- 1 leon leon  11K 8月  19 17:13  ftp.md
+drwxrwxr-x 4 leon leon 4.0K 8月  20 18:14  rmf
+drwxrwxr-x 3 leon leon 4.0K 8月  20 18:14  rmf.grb
+drwxrwxr-x 2 leon leon 4.0K 8月  25 16:53  pygrib
+drwxrwxr-x 2 leon leon 4.0K 8月  25 17:23  jq
+drwxrwxr-x 3 leon leon 4.0K 9月   6 12:17  natapp-tmp
+drwxrwxr-x 2 leon leon 4.0K 9月   6 18:47  bin
+drwxrwxr-x 9 leon leon 4.0K 9月   7 15:01  src
+drwxrwxr-x 3 leon leon 4.0K 9月   9 13:27  cmd
+leon@ads:~$
