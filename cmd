@@ -1,1 +1,1 @@
-tmux send-keys -t 0:2.1 'cd ~/bin && ./natapp -authtoken=5641d77da0cbcd4c' Enter # Fri 08 Oct 2021 09:05:07 PM CST
+ tmux send-keys -t 0:1.1 'cd ~/bin && ./natapp --authtoken=01c12cc44a209575' Enter # Sat 09 Oct 2021 02:13:24 PM CST
