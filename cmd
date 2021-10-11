@@ -1,1 +1,1 @@
-tmux send-keys -t 0:2.1 'cd ~/bin && ./natapp -authtoken=5641d77da0cbcd4c' Enter # Mon 11 Oct 2021 09:42:50 AM CST
+ tmux split-window -h -t 0:1.1 && tmux kill-pane -t 0:1.1 #   # Mon 11 Oct 2021 09:50:46 AM CST
