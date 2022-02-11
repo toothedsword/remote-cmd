@@ -1,10 +1,13 @@
 import re
 import os
 import time
+import sys
 
+
+remote = sys.argv[1]
 
 while True:
-    sts = os.popen('git pull origin master')
+    sts = os.popen('git pull '+remote+' master')
     info = sts.read()
 
     if re.search('up to date', info):
